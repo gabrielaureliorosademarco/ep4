@@ -1,0 +1,47 @@
+body{
+    
+}
+
+body{
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "lado copo copo"
+    "roda roda roda";
+    grid-gap: 20px;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto auto auto;
+
+   
+}
+
+.cabecao{
+      grid-area: cabe;
+      background-color: crimson;
+}
+
+.lados{
+    grid-area: lado;
+    background-color: blue;
+}
+
+.corpo{
+    grid-area: copo;
+    background-color: crimson;
+}
+
+.rodapee{
+    grid-area: roda;
+    background-color: darkred;
+}
+
+.formula1{
+    display: block;
+    margin-right: auto;
+   margin-left: auto;
+   width: 200px;
+   height: 200px;
+}
+
+
